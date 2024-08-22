@@ -141,6 +141,15 @@ filaments = {
                'useable but not full':0,
                'unuseable or almost empty':1,
                },
+    
+    'Purple': {'color':'purple',
+               'material':'abs',
+               'total rolls':4,
+               'unopened':3,
+               'full opened':1,
+               'useable but not full':0,
+               'unuseable or almost empty':0,
+              },
 }
 
 def report_inventory(color, material, total_rolls):
